@@ -4,7 +4,7 @@
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">Overview</span>
-        <h3 class="page-title">用户</h3>
+        <h3 class="page-title">Users</h3>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
               />
               <d-input-group-addon append>
                 <d-button class="btn-white" @click="search_user"
-                  ><i class="material-icons">搜索</i></d-button
+                  ><i class="material-icons">search</i></d-button
                 >
                 <d-button class="btn-white" @click="next_page"
                   ><i class="material-icons">arrow_forward_ios</i></d-button
@@ -38,9 +38,9 @@
               <thead class="bg-light">
                 <tr>
                   <th scope="col" class="border-0">ID</th>
-                  <th scope="col" class="border-0">标签</th>
-                  <th scope="col" class="border-0">最近活跃时间</th>
-                  <th scope="col" class="border-0">最近更新时间</th>
+                  <th scope="col" class="border-0">Labels</th>
+                  <th scope="col" class="border-0">Last Active</th>
+                  <th scope="col" class="border-0">Last Update</th>
                   <th scope="col" class="border-0"></th>
                   <th scope="col" class="border-0"></th>
                 </tr>
@@ -69,7 +69,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>相似项目</d-button>
+                      <d-button size="small" outline>Neighbors</d-button>
                     </router-link>
                   </td>
                   <td>
@@ -79,7 +79,7 @@
                         params: { user_id: user.UserId },
                       }"
                     >
-                      <d-button size="small" outline>详情</d-button>
+                      <d-button size="small" outline>Insight</d-button>
                     </router-link>
                   </td>
                 </tr>
