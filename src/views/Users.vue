@@ -13,7 +13,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">用户</h6>
+            <h6 class="m-0">Users</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group>
