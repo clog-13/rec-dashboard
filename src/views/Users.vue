@@ -4,7 +4,7 @@
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">Overview</span>
-        <h3 class="page-title">Users</h3>
+        <h3 class="page-title">用户</h3>
       </div>
     </div>
 
@@ -13,7 +13,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Users</h6>
+            <h6 class="m-0">用户</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group>
@@ -25,7 +25,7 @@
               />
               <d-input-group-addon append>
                 <d-button class="btn-white" @click="search_user"
-                  ><i class="material-icons">search</i></d-button
+                  ><i class="material-icons">搜索</i></d-button
                 >
                 <d-button class="btn-white" @click="next_page"
                   ><i class="material-icons">arrow_forward_ios</i></d-button
@@ -38,7 +38,7 @@
               <thead class="bg-light">
                 <tr>
                   <th scope="col" class="border-0">ID</th>
-                  <th scope="col" class="border-0">Labels</th>
+                  <th scope="col" class="border-0">标签</th>
                   <th scope="col" class="border-0">Last Active</th>
                   <th scope="col" class="border-0">Last Update</th>
                   <th scope="col" class="border-0"></th>
